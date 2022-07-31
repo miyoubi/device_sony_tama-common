@@ -230,6 +230,12 @@ PRODUCT_COPY_FILES += \
 PRODUCT_PACKAGES += \
     android.hardware.gnss@2.0.vendor
 
+# F2FS
+PRODUCT_PACKAGES += \
+    sg_write_buffer \
+    f2fs_io \
+    check_f2fs
+
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.0-impl \
