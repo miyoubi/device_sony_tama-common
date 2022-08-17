@@ -319,7 +319,6 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2-service \
     com.android.nfc_extras \
     NfcNci \
     libchrome.vendor \
@@ -328,6 +327,9 @@ PRODUCT_PACKAGES += \
 
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/configs/init.tama_kddi.nfc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.tama_kddi.nfc.rc
 
 # Perfd (dummy)
 PRODUCT_PACKAGES += \
