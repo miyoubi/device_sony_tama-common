@@ -212,6 +212,9 @@ persist.log.tag.b/223498680=S
 persist.log.tag.TrafficStats=S
 persist.log.tag.ContrastColorUtil=S
 
+# Multi-gen LRU
+persist.device_config.mglru_native.lru_gen_config=all
+
 # Perf
 ro.vendor.extension_library=libqti-perfd-client.so
 
