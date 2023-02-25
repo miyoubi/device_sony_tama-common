@@ -12,7 +12,7 @@ BUILD_BROKEN_USES_BUILD_COPY_HEADERS := true
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 BUILD_BROKEN_INCORRECT_PARTITION_IMAGES := true
 
-COMMON_PATH := device/sony/tama-common
+COMMON_PATH := device/sony/tama-common-kddi
 
 # Architecture
 TARGET_ARCH := arm64
@@ -178,4 +178,4 @@ WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # Inherit from the proprietary version
--include vendor/sony/tama-common/BoardConfigVendor.mk
+-include vendor/sony/tama-common-kddi/BoardConfigVendor.mk
