@@ -216,6 +216,11 @@ PRODUCT_SET_DEBUGFS_RESTRICTIONS := true
 PRODUCT_PACKAGES += \
     android.hardware.graphics.composer@2.3-service \
     android.hardware.graphics.mapper@2.0-impl-qti-display \
+    android.hardware.graphics.mapper@3.0-impl-qti-display \
+    android.hardware.graphics.mapper@3.0 \
+    android.hardware.graphics.mapper@4.0 \
+    android.hardware.graphics.mapper@2.0 \
+    android.hardware.graphics.mapper@2.1 \
     android.hardware.memtrack@1.0-impl \
     android.hardware.memtrack@1.0-service \
     gralloc.sdm845 \
@@ -233,11 +238,13 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.display.allocator-service \
     vendor.qti.hardware.display.mapper@1.1.vendor \
     vendor.qti.hardware.display.mapper@2.0.vendor \
-    vendor.qti.hardware.display.mapper@3.0.vendor \
+    vendor.qti.hardware.display.mapper@3.0 \
     vendor.qti.hardware.display.mapper@4.0.vendor \
     vendor.qti.hardware.display.mapperextensions@1.0 \
     vendor.qti.hardware.display.mapperextensions@1.1 \
-    vendor.qti.hardware.display.config-V5-ndk
+    vendor.qti.hardware.display.config-V5-ndk \
+    android.hardware.graphics.common-V1-ndk.vendor \
+    android.hardware.graphics.common-V1-ndk_platform.vendor
 
 # DRM
 PRODUCT_PACKAGES += \
