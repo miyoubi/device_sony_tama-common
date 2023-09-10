@@ -446,6 +446,11 @@ PRODUCT_PACKAGES += \
 # Speed profile services and wifi-service to reduce RAM and storage.
 PRODUCT_SYSTEM_SERVER_COMPILER_FILTER := speed-profile
 
+# Sony Charger Interface
+PRODUCT_PACKAGES += \
+    vendor.sony.charger \
+    vendor.sony.charger-service \
+
 # Soong namespaces
 PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
