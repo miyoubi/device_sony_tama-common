@@ -524,3 +524,23 @@ PRODUCT_BOOT_JARS += \
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.surface_flinger.force_hwc_copy_for_virtual_displays=true \
     ro.surface_flinger.max_virtual_display_dimension=4096
+
+# Xperia Modules | Xperia Extras
+include hardware/sony/XperiaModules.mk
+include vendor/sony/extra/Tama/extra.mk
+
+# Xperia Modules - Flags
+TARGET_SUPPORTS_CREATOR_MODE := false
+TARGET_SUPPORTS_HIGH_REFRESH_RATE := false
+TARGET_SUPPORTS_BATTERY_CARE := true
+TARGET_SUPPORTS_EUICC := false
+
+# Xperia Extras - Flags
+TARGET_SHIPS_SONY_FRAMEWORK := true
+TARGET_SHIPS_APERTURE_CAMERA := true
+TARGET_SHIPS_SONY_APPS := true
+TARGET_SUPPORTS_GAME_CONTROLLERS := true
+
+# Xperia Modules | Xperia Extras - Shared Flags (hardware_sony & vendor_sony_extra)
+TARGET_SUPPORTS_SOUND_ENHANCEMENT := true
+TARGET_SHIPS_SOUND_ENHANCEMENT := true
