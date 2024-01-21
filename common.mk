@@ -357,15 +357,36 @@ PRODUCT_PACKAGES += \
 
 # NFC
 PRODUCT_PACKAGES += \
-    android.hardware.nfc@1.2-service \
     com.android.nfc_extras \
     NfcNci \
     libchrome.vendor \
     SecureElement \
     Tag
 
+# Global NFC
+ifeq ($(TARGET_USES_NFC), true)
+PRODUCT_PACKAGES += \
+    android.hardware.nfc@1.2-service
+
 PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf
+    $(LOCAL_PATH)/nfc/libnfc-nci.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    $(LOCAL_PATH)/vintf/android.hardware.nfc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.nfc.xml
+endif
+
+# FeliCa NFC
+ifeq ($(TARGET_USES_NFC-F), true)
+PRODUCT_PACKAGES += \
+    libchrome.vendor
+
+PRODUCT_COPY_FILES += \
+    $(LOCAL_PATH)/nfc/libnfc-nci-f.conf:$(TARGET_COPY_OUT_VENDOR)/etc/libnfc-nci.conf \
+    $(LOCAL_PATH)/configs/init.tama_felica.nfc.rc:$(TARGET_COPY_OUT_VENDOR)/etc/init/init.tama_felica.nfc.rc \
+    $(LOCAL_PATH)/vintf/vendor.nxp.nxpnfc.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/vendor.nxp.nxpnfc.xml \
+    $(LOCAL_PATH)/vintf/android.hardware.nfc-f.xml:$(TARGET_COPY_OUT_VENDOR)/etc/vintf/manifest/android.hardware.nfc.xml
+
+PRODUCT_SYSTEM_PROPERTIES += \
+    ro.nfc.port=I2C
+endif
 
 # Perfd (dummy)
 PRODUCT_PACKAGES += \
