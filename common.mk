@@ -15,9 +15,6 @@ OVERRIDE_PRODUCT_COMPRESSED_APEX := false
 # Setup dalvik vm configs
 $(call inherit-product, frameworks/native/build/phone-xhdpi-4096-dalvik-heap.mk)
 
-# Include common vendor stuff
-$(call inherit-product-if-exists, vendor/sony/tama/common/common-vendor.mk)
-
 # Overlays
 DEVICE_PACKAGE_OVERLAYS += \
     $(LOCAL_PATH)/overlay
