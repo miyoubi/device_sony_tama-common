@@ -191,5 +191,22 @@ WIFI_HIDL_FEATURE_DUAL_INTERFACE := true
 WIFI_HIDL_UNIFIED_SUPPLICANT_SERVICE_RC_ENTRY := true
 WPA_SUPPLICANT_VERSION := VER_0_8_X
 
+# HIDL (NFC)
+ifeq ($(TARGET_USES_NFC), true)
+DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/vintf/manifest.xml
+DEVICE_MATRIX_FILE += \
+    $(COMMON_PATH)/configs/vintf/compatibility_matrix.xml \
+    $(COMMON_PATH)/configs/vintf/android.hardware.nfc.xml
+endif
+
+# HIDL (NFC-F)
+ifeq ($(TARGET_USES_NFC-F), true)
+DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/vintf/manifest.xml
+DEVICE_MATRIX_FILE += \
+    $(COMMON_PATH)/configs/vintf/compatibility_matrix.xml \
+    $(COMMON_PATH)/configs/vintf/vendor.nxp.nxpnfc.xml \
+    $(COMMON_PATH)/configs/vintf/android.hardware.nfc-f.xml
+endif
+
 # Inherit from the proprietary version
 include vendor/sony/tama-common/BoardConfigVendor.mk
