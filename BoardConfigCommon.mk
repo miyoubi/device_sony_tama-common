@@ -209,4 +209,4 @@ DEVICE_MATRIX_FILE += \
 endif
 
 # Inherit from the proprietary version
-include vendor/sony/tama-common/BoardConfigVendor.mk
+include vendor/sony/tama-common-kddi/BoardConfigVendor.mk
