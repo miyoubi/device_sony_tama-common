@@ -193,19 +193,14 @@ WPA_SUPPLICANT_VERSION := VER_0_8_X
 
 # HIDL (NFC)
 ifeq ($(TARGET_USES_NFC), true)
-DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/vintf/manifest.xml
-DEVICE_MATRIX_FILE += \
-    $(COMMON_PATH)/configs/vintf/compatibility_matrix.xml \
-    $(COMMON_PATH)/configs/vintf/android.hardware.nfc.xml
+DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/vintf/nfc/manifest.xml
+DEVICE_MATRIX_FILE += $(COMMON_PATH)/configs/vintf/nfc/compatibility_matrix.xml
 endif
 
 # HIDL (NFC-F)
 ifeq ($(TARGET_USES_NFC-F), true)
-DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/vintf/manifest.xml
-DEVICE_MATRIX_FILE += \
-    $(COMMON_PATH)/configs/vintf/compatibility_matrix.xml \
-    $(COMMON_PATH)/configs/vintf/vendor.nxp.nxpnfc.xml \
-    $(COMMON_PATH)/configs/vintf/android.hardware.nfc-f.xml
+DEVICE_MANIFEST_FILE += $(COMMON_PATH)/configs/vintf/nfc-f/manifest.xml
+DEVICE_MATRIX_FILE += $(COMMON_PATH)/configs/vintf/nfc-f/compatibility_matrix.xml
 endif
 
 # Inherit from the proprietary version
