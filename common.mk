@@ -266,6 +266,11 @@ PRODUCT_PACKAGES += \
     f2fs_io \
     check_f2fs
 
+# Health
+PRODUCT_PACKAGES += \
+    android.hardware.health@2.0-impl \
+    android.hardware.health@2.0-service
+
 # HIDL
 PRODUCT_PACKAGES += \
     android.hidl.allocator@1.0.vendor \
@@ -276,10 +281,6 @@ PRODUCT_PACKAGES += \
     libhidltransport.vendor \
     libhwbinder \
     libhwbinder.vendor
-
-# Health
-PRODUCT_PACKAGES += \
-    android.hardware.health-service.qti
 
 # HotwordEnrollement app permissions
 PRODUCT_COPY_FILES += \
