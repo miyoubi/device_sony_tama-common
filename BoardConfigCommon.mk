@@ -116,6 +116,9 @@ MAX_EGL_CACHE_SIZE := 2048*1024
 DEVICE_MANIFEST_FILE := $(COMMON_PATH)/configs/vintf/manifest.xml
 DEVICE_MATRIX_FILE := $(COMMON_PATH)/configs/vintf/compatibility_matrix.xml
 
+# Init Script
+TARGET_INIT_VENDOR_LIB := //$(DEVICE_PATH):libinit_tama
+
 # Input
 TARGET_INPUTDISPATCHER_SKIP_EVENT_KEY := 96
 

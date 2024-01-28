@@ -1,0 +1,12 @@
+//
+// Copyright (C) 2024 The LineageOS Project
+//
+// SPDX-License-Identifier: Apache-2.0
+//
+
+cc_library_static {
+    name: "libinit_tama",
+    recovery_available: true,
+    shared_libs: ["libbase"],
+    srcs: ["init_tama.cpp"],
+}
