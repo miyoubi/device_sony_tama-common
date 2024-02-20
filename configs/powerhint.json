@@ -4,8 +4,7 @@
       "Name": "CPULittleClusterMaxFreq",
       "Path": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_max_freq",
       "Values": [
-        "1766400",
-        "1689600",
+        "9999999",
         "1420800",
         "1324800",
         "1228800"
@@ -17,11 +16,10 @@
       "Name": "CPULittleClusterMinFreq",
       "Path": "/sys/devices/system/cpu/cpu0/cpufreq/scaling_min_freq",
       "Values": [
-        "1766400",
-        "1689600",
+        "9999999",
         "1420800",
         "1324800",
-        "902400",
+        "1132800",
         "576000"
       ],
       "ResetOnInit": true
@@ -30,26 +28,23 @@
       "Name": "CPUBigClusterMaxFreq",
       "Path": "/sys/devices/system/cpu/cpu4/cpufreq/scaling_max_freq",
       "Values": [
-        "2803200",
-        "2649600",
-        "2553600",
-        "2323200",
-        "1843200",
+        "9999999",
+        "1996800",
         "1459200",
         "1363200",
-        "1056000"
+        "1286400"
       ],
-      "DefaultIndex": 3,
+      "DefaultIndex": 0,
       "ResetOnInit": true
     },
     {
       "Name": "CPUBigClusterMinFreq",
       "Path": "/sys/devices/system/cpu/cpu4/cpufreq/scaling_min_freq",
       "Values": [
-        "2323200",
+        "9999999",
         "1459200",
-        "1056000",
-        "902400",
+        "1286400",
+        "1209600",
         "0"
       ],
       "ResetOnInit": true
@@ -58,14 +53,10 @@
       "Name": "GPUMaxFreq",
       "Path": "/sys/class/kgsl/kgsl-3d0/devfreq/max_freq",
       "Values": [
-        "999999999",
-        "787000000",
         "710000000",
-        "636000000",
-        "520000000",
         "342000000"
       ],
-      "DefaultIndex": 2,
+      "DefaultIndex": 0,
       "ResetOnInit": true
     },
     {
@@ -74,8 +65,7 @@
       "Values": [
         "520000000",
         "342000000",
-        "257000000",
-        "180000000"
+        "257000000"
       ],
       "ResetOnInit": true
     },
@@ -283,7 +273,7 @@
       "PowerHint": "SUSTAINED_PERFORMANCE",
       "Node": "CPUBigClusterMaxFreq",
       "Duration": 0,
-      "Value": "1459200"
+      "Value": "1363200"
     },
     {
       "PowerHint": "SUSTAINED_PERFORMANCE",
@@ -302,6 +292,18 @@
       "Node": "GPUMaxFreq",
       "Duration": 0,
       "Value": "342000000"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "CPUBigClusterMinFreq",
+      "Duration": 0,
+      "Value": "1209600"
+    },
+    {
+      "PowerHint": "INTERACTION",
+      "Node": "CPULittleClusterMinFreq",
+      "Duration": 0,
+      "Value": "1132800"
     },
     {
       "PowerHint": "INTERACTION",
@@ -342,91 +344,91 @@
     {
       "PowerHint": "LAUNCH",
       "Node": "SchedBoost",
-      "Duration": 2500,
+      "Duration": 3000,
       "Value": "1"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMaxFreq",
-      "Duration": 2500,
-      "Value": "2553600"
+      "Duration": 3000,
+      "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBigClusterMinFreq",
-      "Duration": 2500,
-      "Value": "2323200"
+      "Duration": 3000,
+      "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPULittleClusterMinFreq",
-      "Duration": 2500,
-      "Value": "1766400"
+      "Duration": 3000,
+      "Value": "9999999"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "PMQoSCpuDmaLatency",
-      "Duration": 2500,
+      "Duration": 3000,
       "Value": "2c"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBWHystTriggerCount",
-      "Duration": 2500,
+      "Duration": 3000,
       "Value": "0"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBWHystLength",
-      "Duration": 2500,
+      "Duration": 3000,
       "Value": "0"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBWHistMemory",
-      "Duration": 2500,
+      "Duration": 3000,
       "Value": "0"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "CPUBWMinFreq",
-      "Duration": 2500,
+      "Duration": 3000,
       "Value": "14236"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "GPUForceClkOn",
-      "Duration": 2500,
+      "Duration": 3000,
       "Value": "1"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "GPUForceRailOn",
-      "Duration": 2500,
+      "Duration": 3000,
       "Value": "1"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "GPUIdleTimer",
-      "Duration": 2500,
+      "Duration": 3000,
       "Value": "10000"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "LLCCBWMinFreq",
-      "Duration": 2500,
+      "Duration": 3000,
       "Value": "6881"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "L3LittleClusterMinFreq",
-      "Duration": 2500,
+      "Duration": 3000,
       "Value": "1478400000"
     },
     {
       "PowerHint": "LAUNCH",
       "Node": "L3BigClusterMinFreq",
-      "Duration": 2500,
+      "Duration": 3000,
       "Value": "1478400000"
     },
     {
