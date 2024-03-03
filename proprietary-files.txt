@@ -1327,25 +1327,25 @@ vendor/bin/time_daemon|e62d164b8c8b30743837896d4c5e8bca39b364e6
 vendor/lib/libtime_genoff.so|9f1e0fd1180207b3df81aa65c319b0d5a467d74c
 vendor/lib64/libtime_genoff.so|3f57de1aeb7aa113a0a579cebed85ab4405b9b49
 
-# Trusted Execution Environment connector - from PNX - RKQ1.200906.002
-vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|f8dc88c7166ffc2c1d997e7d5f16a8eb69c37cfc
+# Trusted Execution Environment connector - from caymanslm-user 12 SKQ1.211103.001
+vendor/bin/hw/vendor.qti.hardware.qteeconnector@1.0-service|1f19be8fdbd58738aa80d5f658ea63818571bb59
 vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc|c966350ee67d3a7c73ca7184e3725264025d16f5
-vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|51c91307f88ea32af97478e7d6ff35f604963412
-vendor/lib/libGPQTEEC_vendor.so|5578cf76650057158a5ef118b4b75f0549af64cb
-vendor/lib/libGPTEE_vendor.so|ec4e64f998c4437318a94acacf266748c20f1346
-vendor/lib/libQTEEConnector_vendor.so|e7235407c52fed215d089884c8c9b6db9b5a6bae
-vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|19dca9b4ee8f90339923902ecfc93545ca9b0eca
-vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|dd9d89e2b85b972e0e4c744d81da0f548ecb76cf
-vendor/lib64/libGPQTEEC_vendor.so|258aacbaa65c588c7c41860263c2db584437f189
-vendor/lib64/libGPTEE_vendor.so|a8896a022e2b977997a40be9c584ff778d25c0f9
-vendor/lib64/libQTEEConnector_vendor.so|62d8993f51e0d4a0c4d6ae2645512ddfc76577f3
-vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|29130d7b0050885a6b455390a02a8615563403c4
+vendor/lib/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|06da1dc2b8a033a9952455f0ff211ab2541d8f41
+vendor/lib/libGPQTEEC_vendor.so|3f8365a2dec894e2147c37c57b1dc077eadebd52
+vendor/lib/libGPTEE_vendor.so|db5e605553de4f6b91bc5eb68c889e1a620cd75c
+vendor/lib/libQTEEConnector_vendor.so|70312327bd5cc5869db9227a8fe4bea35a6d4ded
+vendor/lib/vendor.qti.hardware.qteeconnector@1.0.so|8965a61a78b5683714117c178d76f4556f224b12
+vendor/lib64/hw/vendor.qti.hardware.qteeconnector@1.0-impl.so|b68a789b813a7723350f9605a1f4e08d6fdecc5c
+vendor/lib64/libGPQTEEC_vendor.so|a4a5b76e15f388a68d2511cd88db4d71d52d74ab
+vendor/lib64/libGPTEE_vendor.so|50f15ad9e0a86ea0edee0b0dad778dbb1aad30e1
+vendor/lib64/libQTEEConnector_vendor.so|c76e55b6408d52857fbb4e600f3d33fe74daabb4
+vendor/lib64/vendor.qti.hardware.qteeconnector@1.0.so|40d5543dfa4eff86578a6b239726ab6362332265
 
-# Trusted User Interface - from PNX - RKQ1.200906.002
-vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|e8d97981d09a4e34907d13bcbbd10f03572c9218
-vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc
-vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|37a9af9fbdf5e3ec24129037d6f2fc16317ade23
-vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|960561ba01e28777e099294fb0a9a749e2b2a775
+# Trusted User Interface - from caymanslm-user 12 SKQ1.211103.001
+vendor/bin/hw/vendor.qti.hardware.tui_comm@1.0-service-qti|cf3d3d18a169c2fdb601aece7d8ec09df0d88bf7
+vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc|2cfc563d7e1579374f001c94588fae7835a12ffc
+vendor/lib/vendor.qti.hardware.tui_comm@1.0.so|8549c114998975da0055e7fa89084eaca17fb344
+vendor/lib64/vendor.qti.hardware.tui_comm@1.0.so|fd89a9328a6a7508133c1ad2154ce2a1eaae964d
 
 # Widevine DRM
 vendor/bin/hw/android.hardware.drm@1.1-service.widevine
