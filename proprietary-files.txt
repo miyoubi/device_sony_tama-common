@@ -480,11 +480,11 @@ system_ext/lib64/libdpmframework.so|d974f04f110b3c1a1282d78bb0ff8a29dc022439
 system_ext/lib64/libdpmtcm.so|5521469cac3a2bec3da66cd36637df83ee59b97e
 system_ext/lib64/vendor.qti.diaghal@1.0.so|8afba353fd94d2e955dd626a0eb8029530219732
 
-# DPM (vendor)
-vendor/bin/dpmQmiMgr|2da835936abc23f39903e68a63c5e7303edac1e7
+# DPM (vendor) - from caymanslm-user 12 SKQ1.211103.001
+vendor/bin/dpmQmiMgr|62ef3dd7ee743edb8bef2a044b97cd72192868e2
 vendor/etc/init/dpmQmiMgr.rc|1538743661a5c48c15cd105beaad20f72953885a
-vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|3a407eb9cfe4bda97d793d0b671389aee7afe48f
-vendor/lib64/libdpmqmihal.so|2656dc27e2da38a482d639701647520d259ff50b
+vendor/lib64/com.qualcomm.qti.dpm.api@1.0.so|0174adc1a1b87f10e044056b6dc6b709fa1a7c5e
+vendor/lib64/libdpmqmihal.so|f61467c788163c045716ec1c12b28526ab8ad38f
 
 # DRM
 vendor/bin/qseecomd
