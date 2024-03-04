@@ -520,15 +520,15 @@ vendor/lib64/libspl.so
 vendor/lib64/libssd.so
 vendor/lib64/libtzdrmgenprov.so
 
-# ESE - from PNX - RKQ1.200906.002
-vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|0de9474912b1206cfe17459afca9ebb28bdd2468
+# ESE - from caymanslm-user 12 SKQ1.211103.001
+vendor/bin/hw/vendor.qti.esepowermanager@1.1-service|d6ef76bb9fc6e0ac8b68f9bb85768f9d446e415c
 vendor/etc/init/vendor.qti.esepowermanager@1.1-service.rc|3c024c7135ec3dd8658624509ee61396a74f1ede
-vendor/lib/hw/vendor.qti.esepowermanager@1.1-impl.so|7f5adb335d12659d76fa13318b635e30ee67da6e
-vendor/lib/vendor.qti.esepowermanager@1.0.so|94f25d4c70dac7903000f4ea35af148377665ca6
-vendor/lib/vendor.qti.esepowermanager@1.1.so|f994ed607e87d2a3ad020edb38c05cea356d92ef
-vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|17f648402c874e4f981caadd91438a525089e35d
-vendor/lib64/vendor.qti.esepowermanager@1.0.so|a114629809e67015a14e5e367c6fb374adaafbc2
-vendor/lib64/vendor.qti.esepowermanager@1.1.so|f111cf42439d28fe88d9ebf6b6a1c44b729a3194
+vendor/lib/hw/vendor.qti.esepowermanager@1.1-impl.so|425ef99572b4917a0b7cb7637b0124a4a3f6599b
+vendor/lib/vendor.qti.esepowermanager@1.0.so|bec74a6cc5f5869245e4b60d841c99aee478b210
+vendor/lib/vendor.qti.esepowermanager@1.1.so|b3196198c69c0aba5e95c608694f3dd78b41d1c3
+vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|62b0fb99c8ae8e97cba93b9de77b92984f6a4084
+vendor/lib64/vendor.qti.esepowermanager@1.0.so|c8714743f0dda6a86c20b78e14947b256f8e9004
+vendor/lib64/vendor.qti.esepowermanager@1.1.so|737681c92edea3cf2b899eb4df98fe3f0843e368
 
 # Fingerprint
 vendor/bin/hw/fpc_fingerprint@2.1_HIDL-service
