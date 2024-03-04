@@ -404,49 +404,49 @@ vendor/etc/init/vendor.qti.hardware.capabilityconfigstore@1.0-service.rc|4ede025
 vendor/lib/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|3e517ec6b4603c6c1f5945b3f131aa69bccb0b08
 vendor/lib64/hw/vendor.qti.hardware.capabilityconfigstore@1.0-impl.so|eb1a99915765fca7add8de87d7c4ef9bf031e155
 
-# Display (HDR) - from PNX - RKQ1.200906.002
-vendor/lib/libhdr_tm.so|1e8a647523db0a09c9587a77f1f7b132a03c2354
-vendor/lib64/libhdr_tm.so|7ac38563480eab0583cb440e667a44cfa596167a
+# Display (HDR) - from caymanslm-user-12-SKQ1.211103.001-231250317a5f6-release-keys
+vendor/lib/libhdr_tm.so|f5d51390faa7c148d421dd83faa0a6b975936070
+vendor/lib64/libhdr_tm.so|77cbffcb68adff4bad8983c694b0d21f3dcd28fb
 
-# Display (SDM) - from PNX - RKQ1.200906.002
-vendor/lib/libdisplayqos.so|7b83c36716bae758c71d34b85401d7d77afa2c23
-vendor/lib/libqseed3.so|ea8d3775ab13c9ebfcdc2a02e60f56cc49a9d695
-vendor/lib/libsdedrm.so|b11f16f16cdeaecb492b7ff2274cc02bd604bf0f
-vendor/lib/libsdm-color.so|a18425c4e29bf76f25145d8f839108886283a45f
-vendor/lib/libsdm-diag.so|52c1b843b733165284445b00cb8525063994f502
-vendor/lib/libsdm-disp-vndapis.so|8f433d5996f90c584530ed5a6eba504c3b4cc2b1
-vendor/lib/libsdmextension.so|872876273741968fda9006853979d9da1accc4fb
-vendor/lib/libtinyxml2_1.so|f00b8f6218271d57fd1fb67b192db956e42e66fb
-vendor/lib64/libdisplayqos.so|c3d45315871e402053dd1f353e9bde5cbf757277
-vendor/lib64/libqseed3.so|f5990f19a99ec5f33b5a262493c4e642a1429f69
-vendor/lib64/libsdedrm.so|5113b02d32b886281a790c8c323498195ec780f8
-vendor/lib64/libsdm-color.so|a2b413dea186f9049cb596a6414efc2739694059
-vendor/lib64/libsdm-diag.so|f484f554a015327acf7b5d1f8dbcdddf083c2f45
-vendor/lib64/libsdm-disp-vndapis.so|4c6916fed1e304effa4c06c7207fb0e1b604f3ae
-vendor/lib64/libsdmextension.so|70c18b044897825bc1f15f2b6f73b64b639b6d40
-vendor/lib64/libtinyxml2_1.so|92101861d95cbdf9625d192d0b2295baa5960b68
+# Display (SDM) - from caymanslm-user-12-SKQ1.211103.001-231250317a5f6-release-keys
+vendor/lib/libdisplayqos.so|59aee29ab30df74a670df27935ffa18fa6a77078
+vendor/lib/libqseed3.so|c33fa4850183340701973e392c15673a8cf2d6cf
+vendor/lib/libsdedrm.so|59e706a4a1fc0f6e76234ed4616be5cb5ecc05c9
+vendor/lib/libsdm-color.so|b686cee7804c629c50d73e59bb3f80d04979a3b8
+vendor/lib/libsdm-diag.so|237bd330bae650f4ab79201fbacda95f7b11e011
+vendor/lib/libsdm-disp-vndapis.so|8f8dec8e8484dcdd00253c9dc909c5f2a7c1cf43
+vendor/lib/libsdmextension.so|cd4beb340dbb83b6893685b47483161bf89ddf73
+vendor/lib/libtinyxml2_1.so|658e93c03a852823e84f489f0a87af170fb74ada
+vendor/lib64/libdisplayqos.so|c0d3d06073566199dc730c0402bfde42b7224411
+vendor/lib64/libqseed3.so|632fe744269305f76ac71bbdfd4c8f3016f03221
+vendor/lib64/libsdedrm.so|a996da01655c1a4f4c68fe3d2c79307cd02a9ca8
+vendor/lib64/libsdm-color.so|0c2f15492290284fa169d3946bb3096962b3418e
+vendor/lib64/libsdm-diag.so|d667a27db12286a6cbde1f5b84887912b2ce017b
+vendor/lib64/libsdm-disp-vndapis.so|a7db066b32ea2b200744eccea3339457b1e43f53
+vendor/lib64/libsdmextension.so|b14d64e23b14bcb30a9a220841ab8ac2060e4a6d
+vendor/lib64/libtinyxml2_1.so|e857c0b21b031625e7f3c2735a31330706e05b6e
 
-# Display postprocessing - from PNX - RKQ1.200906.002
-vendor/bin/hw/vendor.display.color@1.0-service|a9d360976833d863f74df381298de696daea8acb
-vendor/bin/mm-pp-dpps|e825298dc12603df29c35aa6ad86fd0d0a7646a2
-vendor/bin/ppd|8b60669c32f091dd5832579892c91dc3eb0e8130
+# Display postprocessing - from caymanslm-user-12-SKQ1.211103.001-231250317a5f6-release-keys
+vendor/bin/hw/vendor.display.color@1.0-service|ef5d3ab2715b31033b86b2e89852979911975e39
+vendor/bin/mm-pp-dpps|3c62b679fdb26aa6f944969c0d84cfcfb4745362
+vendor/bin/ppd|0f6d956c4ecb7687fb02ab108d2ca0da37631839
 vendor/etc/init/vendor.display.color@1.0-service.rc|5ad673f879b3685a0e79b5633437e5499cb94f48
-vendor/lib/libdisp-aba.so|9271ecfa4d389d99bc592ab2a460eacef7515836
-vendor/lib/vendor.display.color@1.0.so|640ab2b9c2f0077634ed74263c5558076d431203
-vendor/lib/vendor.display.color@1.1.so|732531bbea59f5c1a90f409350d290607189c47f
-vendor/lib/vendor.display.color@1.2.so|f1ea074c629f1fc27000efb44617f7e8386b12d4
-vendor/lib/vendor.display.color@1.3.so|1467fbb9cbbb331da846fd2bcc3e644b55723bd5
-vendor/lib/vendor.display.color@1.4.so|3b7f6a489f66b2cc8b3e5a467b9fe3f95a59c775
-vendor/lib/vendor.display.color@1.5.so|e97e31b9567f9a6f9031063d2356e7391ba719e3
-vendor/lib/vendor.display.postproc@1.0.so|251c33b11743f5e24ca220b220da367996f3077b
-vendor/lib64/libdisp-aba.so|e76d6756cbb0532bc83ff98a06c4ca02fecdd8fe
-vendor/lib64/vendor.display.color@1.0.so|253cd210899ea79133c7b7b9d31429e4a8d43c32
-vendor/lib64/vendor.display.color@1.1.so|fe9b373785571bb890db27523b804dc7d4411bca
-vendor/lib64/vendor.display.color@1.2.so|f40eb8c9d39776c43448431d7c7f7ecc3e4506c3
-vendor/lib64/vendor.display.color@1.3.so|3fbe0a8a317789608848f35b39ed9bfb734f9ecc
-vendor/lib64/vendor.display.color@1.4.so|1396673668977af0a8afeaa64f891c3b356f958d
-vendor/lib64/vendor.display.color@1.5.so|f1c12eb133698917385d48913358eaffd9a10879
-vendor/lib64/vendor.display.postproc@1.0.so|e56b66d744dd77bd87afbb30cab558acf15709fb
+vendor/lib/libdisp-aba.so|2b1862b2ca7c48fe989fbe37dbb6bde36492f0cf
+vendor/lib/vendor.display.color@1.0.so|5d8ad6a83c1e8c5d021332595fb01b113c585802
+vendor/lib/vendor.display.color@1.1.so|01c32fcff28363708a8c09b012d1cf87c4193bbc
+vendor/lib/vendor.display.color@1.2.so|1b60883f626b622a31e36d21427844fbf7cd1a0c
+vendor/lib/vendor.display.color@1.3.so|60e3bbd943d7fc16c071ce0d151f9f590d12b06b
+vendor/lib/vendor.display.color@1.4.so|c614ec719beebce4084d6568d36901dc1ecd2a1f
+vendor/lib/vendor.display.color@1.5.so|bc68edd7d3713d83e2d708b72c89440bfad7c286
+vendor/lib/vendor.display.postproc@1.0.so|ff4bbfd164043d31915c7d73f1facac1a20efee2
+vendor/lib64/libdisp-aba.so|a5e750f5c00061baf3451128c71f4e5f5182f67b
+vendor/lib64/vendor.display.color@1.0.so|006de2652b65d6128c59eaee1f3137265d9a3ed4
+vendor/lib64/vendor.display.color@1.1.so|9e7f0b57a88debcf861203af48dc45e28e30bfb3
+vendor/lib64/vendor.display.color@1.2.so|fb00721202004c920d75faecafee249e5d305ee0
+vendor/lib64/vendor.display.color@1.3.so|19169958cc8888987809f9968793d2b1bae1187b
+vendor/lib64/vendor.display.color@1.4.so|c3a156b9fc3cf48279ba9c71e7f5f93af634ba37
+vendor/lib64/vendor.display.color@1.5.so|e77fe773f5a8585e46e9bafe0f10029315270318
+vendor/lib64/vendor.display.postproc@1.0.so|f759a6120b91cb4ccb4e2f5112b72453bed9741f
 
 # DPM (system) - from LA.QSSI.14.0.r1-11100-qssi.0
 -system/framework/tcmclient.jar|4e1dfaa243c67fec31b5a44086c9c417892761ae
